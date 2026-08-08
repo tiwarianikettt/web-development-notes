@@ -1,6 +1,6 @@
 # HTML - Complete Notes
 
-- **What is HTML?**
+- # **CH-01 What is HTML?**
     
     HTML (Hyper Text Markup Language) is the standard markup language used to structure the content of web pages. It defines elements such as headings, paragraphs, images, links, tables, and forms.
     
@@ -19,7 +19,9 @@
     | `ul>li*5` | List with 5 items |
     | `nav>ul>li*4>a` | Navigation menu |
     | `img` | Image tag |
-- **CH- 01: Creating our first website**
+
+
+- # **CH- 02 Creating our first website**
     
     ### **Starting a website:**
     
@@ -43,10 +45,10 @@
     </body> <!-- Body closing tag. -->
     </html>
     ```
-
-    ``` 
-    💡NOTE :
-
+    
+    ```
+    💡Note:
+    
     1. Tags are like container for content or other HTML tags. 
     
     📄 HTML File → 🌐 Browser → 🖥️ Rendered Page
@@ -57,7 +59,7 @@
     4. Case sensitivity: HTML is not a case sensitive language ```<H1>``` and ```<h1>``` are same.
     ```
     
-- **CH- 02: Tags in HTML**
+- # **CH- 03 Tags in HTML**
     
     ### Semantic tags make HTML easier to read, improve accessibility, and help search engines understand the page structure.
     
@@ -111,15 +113,14 @@
     ```
     
     ```
-
-        💡NOTE :
+    💡Note:
     
         By using this anchor tag when we click on the given link the new page will get open on the same tab. But, if we want to open the new page in different tab then we have to use target attribute.
-    
-            ```html
-            <a href="https://google.com" img src="image link" alt="Google" target="_blank"> </a>
-            <!-- This helps in adding clickable image link in    web page -->
-            ```
+        
+        ```html
+        <a href="https://google.com" img src="image link" alt="Google" target="_blank"> </a>
+        <!-- This helps in adding clickable image link in    web page -->
+        ```
     
     ```
     
@@ -138,17 +139,17 @@
     ```
     
     ```
-
-        💡NOTE :
+    💡
     
-        While working with image tab after src we have an alt attribute.
+    While working with image tab after src we have an alt attribute.
 
-        1. The work of alt attribute is, if by any chance we didn’t add any image or we have entered wrong URL then the alt attribute will help us to tell the user of the page to define what image it is related to.
-        2. Hence as written in above code alt=”school image”. if we write any wrong URL of image it will just show a text at the page saying “school image” so that the client or user can understand what the image is about.
+    1. The work of alt attribute is, if by any chance we didn’t add any image or we have entered wrong URL then the alt attribute will help us to tell the user of the page to define what image it is related to.
+
+    2. Hence as written in above code alt=”school image”. if we write any wrong URL of image it will just show a text at the page saying “school image” so that the client or user can understand what the image is about.
     
-        Also, we can scale the image as per our choices with the help of image tag.
+    Also, we can scale the image as per our choices with the help of image tag.
 
-        1. As written in the above code we can fix height and width as per our choice and this is optional. we can only enter height or only width it will adjust automatically and if do not enter any of them then also the image will display in larger area.
+    1. As written in the above code we can fix height and width as per our choice and this is optional. we can only enter height or only width it will adjust automatically and if do not enter any of them then also the image will display in larger area.
      
     
     ```
@@ -228,7 +229,7 @@
     <footer>_______</footer>
     ```
     
-    ### <b>Main Tag:</b>
+    ### Main Tag:
     
     Represents the primary content of the page.
     
@@ -236,7 +237,7 @@
     <main>Main_content</main>
     ```
     
-    ### <b>Section Tag:</b>
+    ### Section Tag:
     
     This helps dividing our web page into different sections.
     
@@ -246,7 +247,7 @@
     </main>
     ```
     
-    ### <b>Article Tag:</b>
+    ### Article Tag:
     
     It helps in adding stories, text and all in our web page.
     
@@ -270,7 +271,7 @@
       </body>
     ```
     
-    ### <b>Aside Tag:</b>
+    ### Aside Tag:
     
     Contains related information.
     
@@ -278,7 +279,7 @@
     <aside>Recent Posts Advertisements Related Links</aside>
     ```
     
-    ### <b>Div tag:</b>
+    ### Div tag:
     
     Div is container used for other HTML elements.
     It is a block element (Takes complete width).
@@ -292,7 +293,7 @@
      <!-- Here these two paragraphs written between div tag will be considered as a whole single unit. -->
     ```
     
-    ### <b>Span tag:</b>
+    ### Span tag:
     
     Span is also a container for other HTML elements.
     It is an inline elements (Takes width as per size or requirement).
@@ -305,18 +306,16 @@
     ```
     
     ```
-
-        💡NOTE :
-    
-         Here are some tags which don’t have ending tags with them.
-    
-            ```html
-            <br>, <hr>, <img>, <input>, <meta>, <link>
-            ```
+        💡Note:
+        
+        Here are some tags which don’t have ending tags with them.
+        
+        <br>, <hr>, <img>, <input>, <meta>, <link>
+        
     
     ```
     
-    ### <b>Some other attributes:</b>
+    ### Some other attributes:
     
     These can be used with almost every element.
     
@@ -328,9 +327,8 @@
     | title | Tooltip |
     | hidden | Hide element |
     | draggable | Make element draggable |
-
     
-- ## **CH-03: Tables, Lists in HTML**
+- # **CH-04 Tables, Lists in HTML**
     
     ### **Tables in HTML**:
     
@@ -353,15 +351,13 @@
     ```
     
     ```
-
-        💡NOTE :
+    💡Note:
     
-        - Every time when we had to write a row we have to use table row (tr) tabs.
-        - This method only gives a basic skeleton of a table to add borders and design we have to use CSS with HTML.
-    
+    - Every time when we had to write a row we have to use table row (tr) tabs.
+    - This method only gives a basic skeleton of a table to add borders and design we have to use CSS with HTML.
     ```
     
-    ### <b>Thead Tbody tags: </b>
+    ### Thead and Tbody tags:
     
     These tags are used to wrap up the whole table heading and table body together.
     
@@ -393,7 +389,7 @@
     ### **Adding caption to the tables in HTML:**
     
     By this process we can give title to our tables.
-    This function is known as Caption and the tags are: <caption>_______</caption>
+    This function is known as Caption and the tags are: ```<caption>_______</caption>```
     
     ```html
     <table>
@@ -411,9 +407,9 @@
     </table>
     ```
     
-    ## **Lists in HTML:**
+    ### **Lists in HTML:**
     
-    ### <b>Types of HTML Lists:</b>
+    ### Types of HTML lists:
     
     - **Unordered lists**- Displays items using bullets.
     
@@ -426,17 +422,17 @@
     ```
     
     ```
-        💡NOTE :
-    
+        💡Note:
+        
         Here in unordered lists we can change the bullets into squares or circles by using type attribute.
-    
-            ```html
-            <ul type="square"> <!-- It will convert bullets into square shape -->
-                <li>Aniket Tiwari</li>
-                <li>19 years old</li>
-                <li>Learning web development</li>
-            </ul>
-            ```
+        
+        ```html
+        <ul type="square"> <!-- It will convert bullets into square shape -->
+            <li>Aniket Tiwari</li>
+            <li>19 years old</li>
+            <li>Learning web development</li>
+        </ul>
+        ```
     
     ```
     
@@ -451,7 +447,7 @@
     ```
     
     ```
-        💡NOTE :
+        💡
         
         Here in ordered lists we can change the numbers into roman numerals or alphabets by using type attribute.
         
@@ -480,20 +476,18 @@
     </dl> <!-- Closing tab for definition list -->
     ```
     
-- ## **CH-04: Forms in HTML**
+- # **CH-05 Forms in HTML**
     
     ### HTML forms are used to collect inputs from the user.
     
     #### Form tag is used for the same purpose.
     
-    ```
     <form>
     
     — Elements of form —
     
     </form>
-    ```
-
+    
     There are different form elements for different kinds of user inputs.
     
     ### Input elements:
@@ -507,40 +501,39 @@
     ```
     
     ```
-        💡NOTE :
-        
-        Here in the above code we have used input tag with type attribute which is by default text type. 
-        This input type can be of many types other than text like- buttons, date, color, etc.
-        
-        With type attribute we have choose radio type which gives us choice to choose a single option.
-        
-        Value is also an attribute where we have written our options that will be given to choose in our form. 
-        
-        Label tag is used so as to make it in line element other than block element.
+    💡Note:
+    
+    Here in the above code we have used input tag with type attribute which is by default text type. 
+    This input type can be of many types other than text like- buttons, date, color, etc.
+    
+    With type attribute we have choose radio type which gives us choice to choose a single option.
+    
+    Value is also an attribute where we have written our options that will be given to choose in our form. 
+    
+    Label tag is used so as to make it in line element other than block element.
     
     ```
     
     ```
-        💡NOTE :
-        
-        Different types of Input types:
-        
-        | Type | Purpose |
-        | --- | --- |
-        | text | Text input |
-        | email | Email address |
-        | password | Password |
-        | date | Date picker |
-        | file | Upload file |
-        | color | Color picker |
-        | number | Numbers |
-        | range | Slider |
-        | checkbox | Multiple choices |
-        | radio | Single choice |
+    💡Note:
     
+    Different types of Input types:
+    
+    | Type | Purpose |
+    | --- | --- |
+    | text | Text input |
+    | email | Email address |
+    | password | Password |
+    | date | Date picker |
+    | file | Upload file |
+    | color | Color picker |
+    | number | Numbers |
+    | range | Slider |
+    | checkbox | Multiple choices |
+    | radio | Single choice |
     ```
     
-    ### <b>Text area element:</b>
+    ### Text area element:
     
     It defines a multi line text input columns and rows attributes can be used to size the text area
     
@@ -548,7 +541,7 @@
     <textarea name="Feedback" id="" placeholder="Please write your feedback here"></textarea>
     ```
     
-    ### <b>Select element:</b>
+    ### Select element:
     
     Defines a drop down list.
     
@@ -562,11 +555,11 @@
         </select>
     ```
     
-- ## **CH-05: HTML Entities**
+- # **CH-06 HTML Entities**
     
     HTML entities are special codes used to display reserved characters or symbols that cannot be typed directly in HTML.
     
-    ### <b>Common Entities:</b>
+    ### Common Entities:
     
     | Entity | Output | Use |
     | --- | --- | --- |
@@ -581,9 +574,9 @@
     <p>&copy; 2026 Aniket Tiwari</p>
     ```
     
-- ## **CH-06: Multimedia & Embedded Content**
+- # **CH-07 Multimedia & Embedded Content**
     
-    ### <b>Audio:</b>
+    ### Audio:
     
     It is used to embed audio files in the web page.
     
@@ -594,17 +587,17 @@
     ```
     
     ```
-        💡NOTE :
-        
-        The attributes used in this are:
-        
-        - controls: This helps in embedding audio controls like pause, start, etc.
-        - autoplay: By using this the audio will start play by it self once the web page refreshes.
-        - loop: This allows the video to play continuously without stopping.
-        - muted: By using this attribute the video will be muted un till we unmutes.
+    💡Note:
+    
+    The attributes used in this are:
+    
+    - controls: This helps in embedding audio controls like pause, start, etc.
+    - autoplay: By using this the audio will start play by it self once the web page refreshes.
+    - loop: This allows the video to play continuously without stopping.
+    - muted: By using this attribute the video will be muted un till we unmutes.
     ```
     
-    ### <b>Video:</b>
+    ### Video:
     
     It is used to embed videos in the web page.
     
@@ -615,18 +608,18 @@
     ```
     
     ```
-        💡NOTE :
-        
-        The attributes used in this are:
-        
-        - controls: This helps in embedding video controls like pause, start, etc.
-        - autoplay: By using this the video will start play by it self once the web page refreshes.
-        - muted: By using this attribute the video will be muted until we unmutes.
-        - loop: This allows the video to play continuously without stopping.
-        - poster
+    💡Note:
+    
+    The attributes used in this are:
+    
+    - controls: This helps in embedding video controls like pause, start, etc.
+    - autoplay: By using this the video will start play by it self once the web page refreshes.
+    - muted: By using this attribute the video will be muted until we unmutes.
+    - loop: This allows the video to play continuously without stopping.
+    - poster
     ```
     
-    ### <b>iframe:</b>
+    ### iframe:
     
     An iframe can embed YouTube videos, Google Maps, documents, or another webpage inside the current webpage.
     
@@ -634,19 +627,19 @@
     <iframe src="https://www.youtube.com/embed/VIDEO_ID" width="500" height="300">
     </iframe>
     ```
-
-- **CH-07: SEO Basics in HTML**
+    
+- # **CH-08 SEO Basics in HTML**
     
     SEO (**Search Engine Optimization**) is the process of improving a website so that search engines like **Google**, **Bing**, and **Yahoo** can understand, index, and rank it more effectively.
     
     The better the SEO of a website, the higher the chances of it appearing in search engine results, which can increase the number of visitors.
     
     ```
-        💡NOTE :
-        
-        - SEO helps improve a website's visibility.
-        - Better SEO can increase organic traffic.
-        - HTML plays an important role in on-page SEO.
+    💡Note:
+    
+    - SEO helps improve a website's visibility.
+    - Better SEO can increase organic traffic.
+    - HTML plays an important role in on-page SEO.
     ```
     
     ### Title Tag:
@@ -666,11 +659,11 @@
     ```
     
     ```
-        💡NOTE :
-        
-        - Every webpage should have a unique title.
-        - Keep the title short and descriptive.
-        - It is one of the most important HTML elements for SEO.
+    💡Note:
+    
+    - Every webpage should have a unique title.
+    - Keep the title short and descriptive.
+    - It is one of the most important HTML elements for SEO.
     ```
     
     ### Meta Description:
@@ -684,11 +677,11 @@
     ```
     
     ```
-        💡NOTE :
-        
-        - Helps users understand what the page is about.
-        - Write a clear and meaningful description.
-        - Recommended length is around **150–160 characters**.
+    💡Note:
+    
+    - Helps users understand what the page is about.
+    - Write a clear and meaningful description.
+    - Recommended length is around **150–160 characters**.
     ```
     
     ### Semantic HTML:
@@ -714,14 +707,14 @@
     Using semantic HTML helps both search engines and developers understand the structure of a webpage.
     
     ```
-        💡NOTE :
-        
-        Semantic HTML improves:
-        
-        - SEO
-        - Accessibility
-        - Code readability
-        - Website structure
+    💡Note:
+    
+    Semantic HTML improves:
+    
+    - SEO
+    - Accessibility
+    - Code readability
+    - Website structure
     ```
     
     ### Alt Attribute:
@@ -747,24 +740,23 @@
     ```
     
     ```
-        💡NOTE :
-        
-        SEP Best Practices:
-        
-        - Use a unique `<title>` for every webpage.
-        - Add a meaningful meta description.
-        - Use semantic HTML elements.
-        - Write descriptive `alt` text for images.
-        - Follow a proper heading hierarchy.
-        - Use meaningful file names.
-        - Keep HTML clean and well-structured.
-        - Avoid unnecessary nested elements.
+    💡Note:
+    
+    SEP Best Practices:
+    
+    - Use a unique `<title>` for every webpage.
+    - Add a meaningful meta description.
+    - Use semantic HTML elements.
+    - Write descriptive `alt` text for images.
+    - Follow a proper heading hierarchy.
+    - Use meaningful file names.
+    - Keep HTML clean and well-structured.
+    - Avoid unnecessary nested elements.
     ```
-
     
-- ## **Practice Sessions**
+- # **Practice Sessions**
     
-    ### <b>HTML Best Practices</b>
+    ### HTML Best Practices
     
     - Use semantic HTML.
     - Always write meaningful `alt` text.
